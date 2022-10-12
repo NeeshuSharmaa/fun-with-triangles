@@ -1,6 +1,66 @@
-.area-style {
-    background-color: skyblue;
-    display: inline-block;
-    height: 2rem;
-    padding: 0.5rem;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&family=Open+Sans&family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+body {
+    background-color: #c7d2fe;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#nav-bar{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    flex-direction: row;
+    margin-bottom: 4rem;
+    background-color:#4c1d95;
+}
+
+.nav-list{
+    list-style-type: none;
+    display:inline-flex;
+    
+}
+.inline-item-list{
+    display:inline-flex;
+    
+}
+.link {
+    text-decoration-line: none;
+    color: white;
+    list-style-type: none;
+    padding:1rem 3rem;
+    font-size:20px;
+}
+
+h1{
+    margin:2rem;
+    font-size:3rem;
+    text-align: center;
+}
+#ques-container{
+    display:flex;
+    flex-wrap:wrap;
+}
+.angle-input{
+    padding:0.5rem;
+    margin:2rem;
+    font-size:20px;
+    border-radius:0.2rem;
+    border-width:0px;
+}
+
+#is-triangle-btn{
+    margin:2rem;
+    padding:1rem 0.2rem;;
+    width:80%;
+    color: white;
+    background-color: #4c1d95;
+    border-width:0.1rem;
+    border-color:white;
+    border-style: dashed;
+}
+
+#output{
+    padding: 1rem 2rem 2rem 2rem;
+    font-size:1.5rem;
 }

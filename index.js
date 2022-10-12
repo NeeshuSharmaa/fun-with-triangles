@@ -17,21 +17,21 @@ function isTriangle() {
             console.log(Number(angle1));
             const sumOfAngles = calculateSumOfAngles(Number(angle1), Number(angle2),Number (angle3));
             if(sumOfAngles===180) {
-                outputE1.innerText="Yay, The angles form a triangle";
+                outputE1.innerText="Yayee!! The angles form a triangle.";
                 // console.log("Yay, The angles form a triangle")
             }
             else {
-                outputE1.innerText="Oh oh! The angles don't form a triangle";
+                outputE1.innerText="Oh oh! The angles don't form a triangle.";
                 // console.log("Oh oh! The angles don't form a triangle");
             }
         }
         else {
-            outputE1.innerText="Type the numbers!!"
+            outputE1.innerText="Type the numbers, please!! -_-"
         }
         
     }
     else {
-        outputE1.innerText="Enter all the values"
+        outputE1.innerText="Enter all the values, please!! -_- "
     }
 }
 

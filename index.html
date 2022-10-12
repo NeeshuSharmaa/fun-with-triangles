@@ -5,17 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width", initial-scale="1.0">
     <title>Triangle</title>
+    <link href="style.css" rel="stylesheet" >
 </head>
 <body>
+    <nav id="nav-bar">
+        <ul id="nav-list">
+            <li class="inline-item-list"><a class="link" href="index.html" >Is Triangle?</a></li>
+            <li class="inline-item-list"><a class="link" href="quiz.html" >Quiz</a></li>
+            <li class="inline-item-list"><a class="link" href="hypotenuse.html" >Hypotenuse</a></li>
+            <li class="inline-item-list"><a class="link" href="area.html" >Area</a></li>
+        </ul>
+    </nav>
     <h1>Is Triangle?</h1>
-    <label for="angle1">angle1</label>
-    <input type="text" class="angle-input" id="angle1" />
-    <label for="angle2">angle2</label>
-    <input type="text" class="angle-input" id="angle2" />
-    <label for="angle3">angle3</label>
-    <input type="text" class="angle-input" id="angle3"/>
-    <button id="is-triangle-btn">Is Triangle?</button>
-    <div id="output"></div>
+    <center>
+        <p>A polygon is said to be a triangle only when the sum of all it's angles is 180°. Type the angles and check whether they form a triangle or not!!</p>
+        <label for="angle1">Angle1</label>
+        <input type="text" class="angle-input" id="angle1" />
+        <label for="angle2">Angle2</label>
+        <input type="text" class="angle-input" id="angle2" />
+        <label for="angle3">Angle3</label>
+        <input type="text" class="angle-input" id="angle3"/><br><br>
+        <button id="is-triangle-btn" onmouseover="" style="cursor: pointer">Check Here</button><br><br>
+        <div id="output"></div>
+    </center>
+    
+    
     <script src="index.js" type="text/javascript"></script>
 </body>
 </html>
