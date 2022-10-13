@@ -17,23 +17,33 @@
         </ul>
     </nav>
     <h1>Triangle Quiz</h1>
-    <form class ="quiz-form">
-        <div class="question-container">
-        <p>what is the third angle for the triangle where angle1=45 and angle2=45?</p>
-        <label><input type="radio" name="question1" value="45°" />45°</label>
-        <label><input type="radio" name="question1" value= "90°"/>90°</label>
-        <label><input type="radio" name="question1" value="60°" />60°</label>
-        </div>
-        <div class="question-container">
-            <p>If a triangle has an angle of 90 degrees, what is it called?</p>
-            <label><input type="radio" name="question2" value="obtuse" />obtuse</label>
-            <label><input type="radio" name="question2" value= "acute"/>acute</label>
-            <label><input type="radio" name="question2" value="right-angled" />right-angled</label>
-        </div>
-        
-    </form>
-    <button id="submit-answer-btn">Submit Answers</button>
-    <div id="output"></div>
+    <center>
+        <form class ="quiz-form">
+            <div class="question-container">
+                <p>1. What is the third angle for the triangle where angle1=45° and angle2=45°?</p>
+                <label class="radio-btn"><input type="radio" name="question1" value="45°"  />45°</label>
+                <label class="radio-btn"><input type="radio" name="question1" value= "90°" />90°</label>
+                <label class="radio-btn"><input type="radio" name="question1" value="60°"  />60°</label>
+            </div>
+            <div class="question-container">
+                <p>2. If a triangle has an angle of 90°, what is it called?</p>
+                <label class="radio-btn"><input type="radio" name="question2" value="obtuse"  />obtuse</label>
+                <label class="radio-btn"><input type="radio" name="question2" value= "acute" />acute</label>
+                <label class="radio-btn"><input type="radio" name="question2" value="right-angled"  />right-angled</label>
+            </div>
+            <div class="question-container">
+                <p>3. In a triangle PQR if ∠QPR = 80° and PQ = PR, then ∠R and ∠Q are</p>
+                <label class="radio-btn"><input type="radio" name="question3" value="80°, 70°"  />80°, 70°</label>
+                <label class="radio-btn"><input type="radio" name="question3" value= "80°, 80°" />80°, 80°</label>
+                <label class="radio-btn"><input type="radio" name="question3" value="50°, 50°"  />50°, 50°</label>
+            </div>
+            
+        </form>
+        <button id="submit-answer-btn">Submit Answers</button>
+        <div id="output"></div>
+
+    </center>
+    
     <script src="quiz.js"></script>
 </body>
 </html>

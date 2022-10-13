@@ -1,7 +1,7 @@
 const quizForm = document.querySelector(".quiz-form");
 const submitAnswerBtn = document.querySelector("#submit-answer-btn");
-const outputE1 =document.querySelector("#output");
-const correctAnswers = ["90", "right-angled"];
+const outputE2 =document.querySelector("#output");
+const correctAnswers = ["90", "right-angled", "50°, 50°"];
 
 function calculateScore() {
     let score =0;
@@ -11,14 +11,14 @@ function calculateScore() {
     // for (let entry of formResults.entries()){
     //     console.log(entry)
     // }
-for (let value of formResults.values()){
-    if(value===correctAnswers[index]){
-        score = score +1;
+    for (let value of formResults.values()){
+        if(value===correctAnswers[index]){
+            score = score +1;
+        }
+        index = index+1;
     }
-    index = index+1;
-}
-    // console.log(score); 
-    outputE1.innerText="Your score is " +score;
+        // console.log(score); 
+    outputE2.innerText="Your score is " +score +" 💁🏻‍♀️";
 }
 
 submitAnswerBtn.addEventListener("click", calculateScore);

@@ -18,13 +18,17 @@
     </nav>
     <h1>Is Triangle?</h1>
     <center>
-        <p>A polygon is said to be a triangle only when the sum of all it's angles is 180°. Type the angles and check whether they form a triangle or not!!</p>
-        <label for="angle1">Angle1</label>
-        <input type="text" class="angle-input" id="angle1" />
-        <label for="angle2">Angle2</label>
-        <input type="text" class="angle-input" id="angle2" />
-        <label for="angle3">Angle3</label>
-        <input type="text" class="angle-input" id="angle3"/><br><br>
+        
+        <p id="main-para">A polygon is said to be a triangle only when the sum of all it's angles is 180°. Type the angles and check whether they form a triangle or not!!</p>
+        <div class="input-flex">
+            <label for="angle1" class="angle">Angle1</label>
+            <input type="text" class="angle-input" id="angle1" />
+            <label for="angle2" class="angle">Angle2</label>
+            <input type="text" class="angle-input" id="angle2" />
+            <label for="angle3" class="angle">Angle3</label>
+            <input type="text" class="angle-input" id="angle3"/><br><br>
+        </div>
+        
         <button id="is-triangle-btn" onmouseover="" style="cursor: pointer">Check Here</button><br><br>
         <div id="output"></div>
     </center>
