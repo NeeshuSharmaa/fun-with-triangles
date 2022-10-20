@@ -11,5 +11,5 @@ Inputs base and height. Calculates & outputs the hypotenuse of the right angled 
 ### 4. Area: 
 Inputs base & height. Outputs area of triangle
 
-## Technologies Used
+## Languages Used
 `HTML` `CSS` `JavaScript`
