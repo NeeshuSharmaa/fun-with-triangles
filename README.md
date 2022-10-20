@@ -1,7 +1,7 @@
 # FUN WITH TRIANGLES
-*Pizza lover, are you? Even if you're not, it's fine. But I bet you definitely love something that looks like a triangle. So, why not having some fun with triangles!!*
+*Pizza lover, are you? Even if you're not, it's fine. But I bet you definitely love something that looks like a triangle. So, why not having some fun with triangles!!* <br />
 
-It is a website consists of 4 subpages:
+It is a [website](https://triangles-ns.netlify.app/) that consists of 4 subpages:
 ### 1. Is Triangles?: 
 Inputs 3 angles and tells whether the angles form a triangle or not.
 ### 2. Quiz: 
