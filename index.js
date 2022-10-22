@@ -25,6 +25,10 @@ function isTriangle() {
                     // console.log("Oh oh! The angles don't form a triangle");
                 }
             }
+            else {
+                outputE1.innerText="None of the input should be a negative angle!!"
+
+            }
 
         }
             
